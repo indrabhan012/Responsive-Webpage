@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="webpage.css">
+                      
+    </head>
+  
+    
+<body>
+
+    <nav class="navigation">
+
+        
+        <div class="logo">
+            <img src="phoenix-logo.png" height="70" width="70">
+        </div>
+         
+       
+        <ul id="menuList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#portfolio">Restaurent</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Testimonial</a></li>
+            
+         </ul>
+         <div class="icon">
+            <button class="icon1"><i class="fa-brands fa-whatsapp"></i></button>
+            <button class="icon1"><i class="fa-brands fa-facebook"></i></button>
+        </div>
+       
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+   
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight === "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <script scr="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"> </script>
+
+<div class="hsection">
+    <div class="herosection">
+        <button class="m-button">Loren Ipsum</button>
+    </div>
+</div>
+<div class="content">
+    <div class="parent-content">
+        <div class="child-content">
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div >
+        <div class="child-content">
+            <p> Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been the industry's standard dummy text ever since the 1500s</p>
+           
+        </div>
+        <div class="child-content">
+            <p>
+                Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been the industry's standard dummy text ever since the 1500s
+            </p>
+           
+        </div>
+    </div>
+
+    
+        <div class="heading">
+            <h1 class="hed">Lorem Ipsum</h1>
+        
+      <div class="parent-card">
+
+          <div class="child-cart">
+        <img src="rooms.jpg" alt="rooms"
+            height="200" width ="300" >
+        <h3>ROOMS</h3>
+        <p>Loren ipsum dolor sit amet, consectetur
+           adipiscing elit,sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua.
+        </p>
+       <div>
+        <button class="btn">Learn More</button>
+       </div>
+       
+      </div>
+      <div class="child-cart">
+        <img src="dining.jpg" alt="dening" width ="300" height="200">
+        <h3>DINING</h3>
+        <p>Loren ipsum dolor sit amet, consectetur
+            adipiscing elit,sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
+        <div><button class="btn">Learn More</button></div>
+        
+      </div>
+      <div class="child-cart">
+        <img src="pool.jpg" alt="pool" width ="300" height="200">
+        <h3>POOLS</h3>
+        <p>Loren ipsum dolor sit amet, consectetur
+            adipiscing elit,sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
+       <div>
+        <button class="btn">Learn More</button>
+       </div>
+        
+      </div>
+</div>
+        </div>
+    </div>
+
+</body>
+</html>
